@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main {
+    width: 1450px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 4px;
+
+}
+
+.header,
+.nav,
+.container,
+.footer {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 160px;
+    height: 80px;
+    background-color: #191918;
+    float: left;
+}
+
+
+.nav {
+    width: 1210px;
+    height: 80px;
+    background-color: #191918;
+
+
+}
+
+.log {
+    width: 80px;
+    height: 80px;
+    background-color: #191918;
+    float: right;
+}
+
+.nav a {
+    color: #fff;
+    padding: 25px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav li {
+
+    display: inline;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav a:hover {
+    background: #bbb;
+    color: #000;
+}
+
+#content {
+    width: 1450px;
+    height: 2700px;
+    background-color: #333;
+
+}
+
+#bt {
+    width: 700px;
+    border-bottom: #d2cab8 4px solid;
+    font-size: 30px;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    margin-left: 300px;
+
+}
+
+#lside {
+    height: 2100px;
+    margin-top: 130px;
+    margin-left: 30px;
+    float: left;
+    text-align: center;
+
+}
+
+#lside p {
+    color: #fff;
+}
+
+.lbox {
+    margin-top: 200px;
+}
+
+.llbox {
+    margin-top: 350px;
+}
+
+.lllbox {
+    margin-top: 350px;
+}
+
+.lbox:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.llbox:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.lllbox:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#rside {
+    width: 980px;
+    height: 2300px;
+    margin-top: 130px;
+    margin-left: 20px;
+    float: right;
+    text-align: center;
+    border-left: #fff 4px solid;
+}
+
+#rside p {
+    color: #fff;
+}
+
+.tu1,
+.tu2,
+.tu3,
+.tu4,
+.tu5,
+.tu6,
+.tu7,
+.tu8,
+.tu9,
+.tu10 {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.tu1:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.tu2:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.tu3:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.tu4:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.tu5:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.tu6:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.tu7:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.tu8:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.tu9:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.tu10:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#foot {
+    width: 1450px;
+    height: 2450px;
+    background-color: #333;
+}
+
+#fbt {
+    width: 700px;
+    border-bottom: #d2cab8 5px solid;
+    font-size: 30px;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    margin-left: 300px;
+}
+
+#back {
+    position: fixed;
+    right: 50px;
+    bottom: 150px;
+}
+
+#upside {
+    margin-top: 50px;
+    margin-left: 450px;
+
+}
+
+#upside img {
+    border-radius: 6px;
+}
+
+#dside {
+    display: inline-block;
+    margin-left: 200px;
+}
+
+#dside img {
+    border-radius: 6px;
+}
+
+.dbox {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.downbox {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+#end {
+    width: 1450px;
+    height: 100px;
+    margin-top: 20px;
+    background-color: #fff;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#end img {
+    margin-right: 25px;
+}
+
+.flside {
+    display: inline;
+    float: left;
+    margin-left: 250px;
+}
+
+.frside {
+    display: inline;
+    float: right;
+    margin-right: 250px;
+}
+
+
+.frside h2 {
+    font-size: 15px;
+}
+
+.frside h3 {
+    font-size: 10px;
+}
